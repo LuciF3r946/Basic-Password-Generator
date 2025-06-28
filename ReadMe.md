@@ -17,7 +17,7 @@ A clean and responsive web app that generates secure, random passwords with just
 
 ## 📸 Preview
 
-![Password Generator Screenshot](./imgs/preview.png)
+![Password Generator Screenshot](./imgs/image.png)
 
 ## 🛠️ How to Use
 
