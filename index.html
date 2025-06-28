@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="container">
+        <!-- Heading -->
+        <h1>Random Password Generator</h1>
+
+        <!-- Subtitle -->
+        <p class="description">Your Secure Password</p>
+
+        <!-- Password Input and Actions -->
+        <div class="input-group">
+            <!-- Password Display -->
+            <input type="text" id="password" readonly placeholder="Click Generate to create a password"
+                aria-label="Generated password" />
+
+            <!-- Copy Icon -->
+            <div class="copy" role="button" title="Copy to clipboard" tabindex="0">
+                <img src="/imgs/solar_copy-outline.svg" alt="Copy icon" width="40" height="40" />
+            </div>
+
+            <!-- Generate Button -->
+            <div class="button">
+                <button id="generate">Generate</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
